@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!--Bootstrap-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./js/reveal.js" defer></script>
+        <script src="./js/menu.js" defer></script>
+        <script src="./js/slide.js" defer></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style2.css">
+        <title>Adolfo | portifólio</title>
+    </head>
+    <body>
+        <header>
+            <!--parte do menu-->
+            <div class="Menu-desktop">
+                <div class="logo">
+                    <h1>Adolfo Cabeia</h1>
+                </div>
+                <div class="Menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#projectos">Projectos</a></li>
+                            <li><a href="#conhecimentos">Habilidades</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <a href="#interface"><button>Contactos</button></a>
+                        </ul>  
+                    </nav>
+                </div>
+                <div class="btn-abrir-menu" id="btn-menu">
+                    <i class="bi bi-list"></i>
+                </div>
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-fechar">
+                        <i class="bi bi-x-lg"></i>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#projectos">Projectos</a></li>
+                            <li><a href="#conhecimentos">Habilidades</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#interface">Contactos</a></li>
+                            
+                        </ul>  
+                    </nav>
+                </div>
+                <div class="overlay-menu" id="overlay-menu">
+
+                </div>
+            </div>
+            <!--fim do menu-->
+        </header>
+        <section class="hero-site">
+            <img src="./img/fotografia-lateral-de-um-editor-de-codigo-usando-react-js.jpg" alt="Fundo Programador">
+            <div class="banner">
+                <h1>Web Developer & Front End Designer</h1>
+                <p>Adolfo Caiji Florindo Cabeia</p>
+                <div class="button">
+                    <a href="#about"><button>Saiba mais</button></a></a>
+                    <a href="https://drive.google.com/file/d/1SMF7LVsAMJUi8qzgoNll1TmiYgiAIe2D/view?usp=sharing" target="_blank"><button>Baixar CV</button></a>
+                </div>
+                
+            </div>
+        </section>
+        <main>
+            <section class="sobre efeito-sobre" id="about">
+                <div class="txt">
+                    <h2>Sobre Mim</h2>
+                </div>
+                <div class="img-redacao">
+                    <div class="circle">
+                        <img src="./img/fb.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Olá, Eu sou <span>Adolfo Cabeia</span></h3>
+                        <p class="par1">Atualmente vivo em Luanda
+                            sou apaixonado em criar coisas! 
+                            Meu interesse em desenvolvimento web
+                            surgiu em 2023 com influências dos 
+                            meus colegas da Universidade, apartir daí 
+                            comecei a construir pequenos sites em 
+                            HTML & CSS.
+                        </p>
+                        <p class="par2">Meu foco atual é desenvolver aplicações, 
+                            sites responsivos, acessibilidade, 
+                            interfaces gráficas e muito mais.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimentos efeito-conhecimentos" id="conhecimentos">
+                    <h2>conhecimentos</h2>
+                    <div class="juncao">
+                        <div class="juncao1">
+                            <div class="figma-cirle">
+                                <p>90%</p>
+                                <span>figma</span>
+                            </div>
+                            <div class="html-circle">
+                                <p>90%</p>
+                                <span>html5</span>
+                            </div>
+                        </div>
+                        <div class="juncao2">
+                            <div class="css-circle">
+                                <p>90%</p>
+                                <span>css3</span> 
+                            </div>
+                            <div class="js-circle">
+                                <p>70%</p>
+                                <span>Javascript</span>
+                            </div>
+                        </div>
+                        <div class="juncao3">
+                            <div class="php-circle">
+                                <p>45%</p>
+                                <span>php</span>
+                            </div>
+                            <div class="sql-circle">
+                                <p>43%</p>
+                                <span>my sql</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projectos efeito-projecto" id="projectos">
+                <h2>meus <span>projectos.</span></h2>
+                <div class="slides">
+                    <div class="slider-content">
+                        <input type="radio" name="" id="radio1">
+                        <input type="radio" name="" id="radio2">
+                        <input type="radio" name="" id="radio3">
+
+                        <div class="slide-box primeiro">
+                            <a href="#"><img class="img-desktop" src="./img/ae.png" alt="Projecto agência de viagem" width="1800px" height="600px"></a>
+                            <a href="#"><img class="img-mobile" src="./img/ae.png" alt="Projecto agência de viagem" height="400px" width="1040px"></a>
+                        </div>
+                        <div class="slide-box">
+                            <a href="#"><img class="img-desktop" src="./img/meu.png" alt="Projecto agência de viagem" width="1800px" height="600px"></a>
+                            <a href="#"><img class="img-mobile" src="./img/meu.png" alt="Projecto agência de viagem" height="400px" width="1040px"></a>
+                        </div>
+                        <div class="slide-box">
+                            <a href="#"><img class="img-desktop" src="./img/bg.png" alt="Projecto agência de viagem" width="1800px" height="600px"></a>
+                            <a href="#"><img class="img-mobile" src="./img/bg.png" alt="Projecto agência de viagem" height="400px" width="1040px"></a>
+                        </div>
+                        <div class="nav-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                        <div class="nav-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                  
+                </div>
+            </section>
+            <section class="especialidades">
+                <div class="interface">
+                    <h2 class="titulo">Meus <span>Serviços.</span></h2>
+                    <div class="flex">
+                        <div class="espe-box">
+                            <i class="bi bi-globe efeito-especialidades1"></i>
+                            <h3>Redes Sociais:</h3>
+                            <p>Criação de email corporativo.</p>
+                        </div><!--box-->
+                        <div class="espe-box efeito-especialidades2">
+                            <i class="bi bi-border-style"></i>
+                            <h3>Ui/Ux Designer:</h3>
+                            <p>Desenvolvo o layout da sua aplicação mobile ou web.</p>
+                            <p>Desenvolvo interfaces UI/UX interativas.</p>
+                            <p>E Muito Mais...</p>
+                        </div><!--box-->
+                        <div class="espe-box efeito-especialidades3">
+                            <i class="bi bi-code"></i>
+                            <h3>Front-End:</h3>
+                            <p>Aplico landing pages.</p>
+                            <p>Desenvolvo páginas com designes diversos.</p>
+                            <p>Manutenção de códigos.</p>
+                            <p>Crio a responsividade do seu site.</p>
+                            <p>Implementações de novas funcionalidades.</p>
+                            <p>E muito mais...</p>
+                        </div><!--box-->
+                    </div><!--flex-->
+                </div><!--Interface-->
+            </section><!--Especialidades-->
+            <section class="formulario">
+                <div class="interface" id="interface">
+                    <h2>FALA <span>COMIGO.</span></h2>
+                    <form action="enviar.php" method="post">
+                        <input class="efeito-input1" type="text" name="nome" id="nome" placeholder="Seu Nome" required>
+                        <input class="efeito-input2" type="email" name="email" id="email" placeholder="Seu Email" required>
+                        <input class="efeito-input3" type="number" name="numero" id="numero" placeholder="(+244)928328205">
+                        <textarea class="efeito-input4" name="mensagem" id="mensagem" placeholder="Sua Mensagem" required></textarea>
+                        <div class="btn-enviar"><input class="efeito-input5" type="submit" value="ENVIAR"></div>   
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+        <footer>
+            <div class="corpo">
+                <div class="logo"><h2>Adolfo Cabeia</h2></div>
+                <div class="menu-footer">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#projectos">projectos</a></li>
+                            <li><a href="#conhecimentos">habilidades</a></li>
+                            <li><a href="#about">sobre</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="btn-social">
+                    <a href="https://www.instagram.com/adolsocabeia2024/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/Adolfo271691"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/adolfo-cabeia-b989b6305/"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope"></i><a href="cabeiaadolfo6@gmail.com" target="_blank">cabeiaadolfo@gmail.com</a></p>
+                <div class="Copyrights">
+                    <p class="feel"><i class="bi bi-c-circle"></i>2024 Todos os direitos autorais reservados</p>
+                </div>
+                <div class="edited">
+                    <p>Editado por: Adolfo Cabeia</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
